@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sponzorise" directorySegmentName="seg_0" id="269BE284-3DA2-BC73-A436-E00BE47DEA3A">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:18:43 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<sourcePk>F38C5568-7567-B857-7115-8ACE2945FE08</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>DD682E23-8CA2-453C-B5B6-71625D024C5C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BA8797F6-E701-0DDD-B4EC-E07942EDAD79</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

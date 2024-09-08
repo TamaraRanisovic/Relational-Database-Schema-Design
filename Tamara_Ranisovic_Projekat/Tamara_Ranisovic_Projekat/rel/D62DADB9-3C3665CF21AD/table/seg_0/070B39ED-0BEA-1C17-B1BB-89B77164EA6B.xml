@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="070B39ED-0BEA-1C17-B1BB-89B77164EA6B" name="ORGANIZATOR">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>5568DFED-F8D6-DFE4-B24E-0F2F122E7090</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_org" id="F3358573-4B90-EA0B-D4B9-E4CA518F4787">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>42DCEFED-FE5B-683C-66C6-82E3A26378C9</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>8B7AC74C-2183-F374-4B19-0E63394BA4E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naz_org" id="E8298CC8-1E93-1865-5851-8025F0410691">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>9A4C0F4E-6A94-25AC-F2B5-449593997994</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B9B2DF67-8822-5BA4-89AB-410610C5F203</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email_org" id="22ECF3D8-F2E2-E322-2E38-9ABD1DED8556">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>A8F31612-1F2E-E85F-DF68-A9BF50BA0CE3</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2B14AD4C-F1C6-34C1-E706-614698C49C8D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Br_tel_org" id="42730658-1485-ECAD-CBF2-F6A363A1A669">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>3BC4346A-B085-1CCE-0DF0-78FF3DFC38DD</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D43CD3DD-4A00-68A5-B04D-6D546FA0453A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFE7D5CF-4FD8-41BD-243A-37CF47CC48A3" name="ORGANIZATOR_PK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>517048C4-A8DC-D44D-8B5A-5F6BD7C42E57</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3358573-4B90-EA0B-D4B9-E4CA518F4787"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

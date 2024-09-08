@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D17E5C3-0A3A-A5B1-DBC7-E7D0B5775887" name="NAUCNI_RAD">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:32:53 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_nrad" id="CE8EF56E-6EA0-0833-EA51-226D0C7E01F0">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:33:03 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>8B7AC74C-2183-F374-4B19-0E63394BA4E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naz_nrad" id="8B385D47-80C0-9263-7B5B-903D117CD62A">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:33:04 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>FD6054F9-1EB1-F02E-738F-914B888D89A2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Publ_nrad" id="374D580F-8CE4-96BF-09C2-B8B255B14E77">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:33:04 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B9B2DF67-8822-5BA4-89AB-410610C5F203</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Autor_nrad" id="002DDAD2-FAC7-0BDA-ED58-3239EEA945F8">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:33:04 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>FD6054F9-1EB1-F02E-738F-914B888D89A2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED99E6F6-845F-CF18-1512-2245F6C41EBA" name="NAUCNI_RAD PK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:33:21 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE8EF56E-6EA0-0833-EA51-226D0C7E01F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

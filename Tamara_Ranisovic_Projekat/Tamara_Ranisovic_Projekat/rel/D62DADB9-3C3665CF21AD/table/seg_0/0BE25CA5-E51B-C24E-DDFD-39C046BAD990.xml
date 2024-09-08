@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0BE25CA5-E51B-C24E-DDFD-39C046BAD990" name="drzi">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RADIONICA_ID_rad" id="239B6E95-AF42-0C76-C43C-F36641AAB8D8">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>8B7AC74C-2183-F374-4B19-0E63394BA4E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CED14D36-1B0A-7048-63B3-1999DAFE0C6B" referredColumn="7D10B66E-54D0-465C-E9CB-2BE334DD4235"/>
+</associations>
+</Column>
+<Column name="SARADNIK_ID_os" id="6610BE1F-820F-F178-5D9E-1F53CCD541A4">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>8B7AC74C-2183-F374-4B19-0E63394BA4E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D3F5305-2112-484E-F165-E06854B33D00" referredColumn="38E18A1E-3C0B-31AA-BD57-9BE81D2FAC9F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D4D7B76-983E-3206-220A-BEC53E4F1445" name="drzi_PK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="239B6E95-AF42-0C76-C43C-F36641AAB8D8"/>
+<colUsage columnID="6610BE1F-820F-F178-5D9E-1F53CCD541A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D222FBB3-0A2C-7C99-86A8-C8C9F83E6D8D" name="drzi_RADIONICA_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>1D49B362-CBFA-D492-2A7E-FE07E85CC9CF</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="239B6E95-AF42-0C76-C43C-F36641AAB8D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C13D28EF-8A83-4467-39FE-BF34CB88C78B" name="drzi_SARADNIK_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>1D49B362-CBFA-D492-2A7E-FE07E85CC9CF</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6610BE1F-820F-F178-5D9E-1F53CCD541A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

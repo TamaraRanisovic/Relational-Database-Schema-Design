@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="16AAA42D-627E-98AC-4D7A-E3234F5523FB" containerWithKeyObject="8173B243-4E58-78F6-07AE-F922AF5C0B16" localFKIndex="466A1AB1-B111-6B74-75E4-1C8B3E4CBF20" name="sponzorise_KONFERENCIJA_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>269BE284-3DA2-BC73-A436-E00BE47DEA3A</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<referredTableLongName>KONFERENCIJA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>79585B85-54AB-7479-F66F-28A4ED0BC975</referredTableID>
+<keyObject>B8C45110-53F2-0620-1829-A79A1FFF660A</keyObject>
+<referredKeyID>B8C45110-53F2-0620-1829-A79A1FFF660A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_konf</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

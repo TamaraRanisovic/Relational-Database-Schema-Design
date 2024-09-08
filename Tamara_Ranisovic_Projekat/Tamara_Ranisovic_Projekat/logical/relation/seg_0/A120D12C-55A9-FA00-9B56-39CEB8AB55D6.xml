@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="daje" directorySegmentName="seg_0" id="A120D12C-55A9-FA00-9B56-39CEB8AB55D6">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:58:32 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>EF8BD5D6-7150-AA2C-D928-C6D5C358FC7B</sourcePk>
+<targetPk>220A52CA-BC05-4161-CD16-3884C8E725A8</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>579E69EC-50FA-E0C9-3561-A5B75DFA2C5C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E258B073-FCF8-04B0-1D37-994BF092B033</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

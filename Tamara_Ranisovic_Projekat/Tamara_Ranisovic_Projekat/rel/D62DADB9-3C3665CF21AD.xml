@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" mainViewID="473EDD44-BDFF-EC61-D605-B8759DB2284C">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:17 UTC</createdTime>
+<ownerDesignName>finalISPRAVNA</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

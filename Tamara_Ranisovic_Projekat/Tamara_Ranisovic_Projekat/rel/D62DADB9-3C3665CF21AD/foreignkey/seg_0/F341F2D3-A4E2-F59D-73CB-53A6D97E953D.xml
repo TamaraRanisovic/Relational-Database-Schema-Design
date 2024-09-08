@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F341F2D3-A4E2-F59D-73CB-53A6D97E953D" containerWithKeyObject="B6326C41-B539-CC73-DBAD-61F0FC79DE08" localFKIndex="301CA0D1-432A-3BEF-BF2F-E63B5368A1F4" name="KUPOVINA_ULAZNICE_ULAZNICA_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>13FC3F5A-74FC-FB10-697B-36CFD0E1CC43</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<referredTableLongName>ULAZNICA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>117DD7D0-9D3C-0AF7-7DAA-A50BC204D90D</referredTableID>
+<keyObject>1B6D39F1-7830-D4A6-4620-0EBADF12E5A8</keyObject>
+<referredKeyID>1B6D39F1-7830-D4A6-4620-0EBADF12E5A8</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_ulaz,KONFERENCIJA_ID_konf</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

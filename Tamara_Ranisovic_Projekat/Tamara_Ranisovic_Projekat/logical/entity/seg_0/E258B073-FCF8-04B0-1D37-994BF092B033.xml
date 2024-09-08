@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E258B073-FCF8-04B0-1D37-994BF092B033" name="OCENA">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:46:18 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_oc" id="9A5FE3DD-5DF6-92B3-C711-A67BF089AAC8">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:46:27 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>8B7AC74C-2183-F374-4B19-0E63394BA4E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Oc_org" id="0EF3C2E5-18CE-C06F-60E1-03D3E73B20B8">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:46:27 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>3FBB28AC-17E3-CFD5-2AFB-5C4AD2461A33</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Oc_zan" id="F00FC406-CEC8-CA28-0806-7B2D07B4E917">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:46:27 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>3FBB28AC-17E3-CFD5-2AFB-5C4AD2461A33</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Oc_korisn" id="BFEF81C3-BD5F-5FF0-C865-84F4B9E5F663">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:46:28 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>3FBB28AC-17E3-CFD5-2AFB-5C4AD2461A33</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Oc_predav" id="437A478C-8177-C398-D47E-9B54F855DD9D">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:46:28 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>3FBB28AC-17E3-CFD5-2AFB-5C4AD2461A33</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Oc_radion" id="A94CD6E0-78BA-2B25-68D4-8C2214FC5128">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:46:28 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>3FBB28AC-17E3-CFD5-2AFB-5C4AD2461A33</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Oc_pr" id="52124094-1C51-BE98-07AC-31BBDBF07F1A">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:46:28 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>3FBB28AC-17E3-CFD5-2AFB-5C4AD2461A33</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Oc_sr" id="226C5452-9B32-A296-0E39-9F9B7B60F16F">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:46:28 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>3FBB28AC-17E3-CFD5-2AFB-5C4AD2461A33</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="220A52CA-BC05-4161-CD16-3884C8E725A8" name="OCENA PK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:46:39 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A5FE3DD-5DF6-92B3-C711-A67BF089AAC8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

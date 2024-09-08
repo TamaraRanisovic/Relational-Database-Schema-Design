@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="nastupa" directorySegmentName="seg_0" id="D545D88C-4AC3-68D5-624E-B02DE1CA748A">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 06:02:39 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0208EEF3-199B-B7BA-535E-03993F04B7A3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD682E23-8CA2-453C-B5B6-71625D024C5C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

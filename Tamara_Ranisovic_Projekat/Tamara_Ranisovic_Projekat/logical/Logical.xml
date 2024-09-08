@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="FE1DE678-1FC4-DE89-3872-F9BA05919338" mainViewID="5E354249-9E5D-357C-452F-5613C007BC27">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 04:12:32 UTC</createdTime>
+<ownerDesignName>finalISPRAVNA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

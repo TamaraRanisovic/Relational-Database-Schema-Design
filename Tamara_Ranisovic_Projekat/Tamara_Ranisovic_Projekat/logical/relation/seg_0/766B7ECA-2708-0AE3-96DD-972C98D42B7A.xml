@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="prodaje_se" directorySegmentName="seg_0" id="766B7ECA-2708-0AE3-96DD-972C98D42B7A">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 05:22:34 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>F38C5568-7567-B857-7115-8ACE2945FE08</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DD682E23-8CA2-453C-B5B6-71625D024C5C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B82A5D0A-DD58-6AFE-D963-D6635B74A253</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C391D724-C755-BC30-B238-69A9D4A191C7" name="organizuje">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KONFERENCIJA_ID_konf" id="AEE79221-5C13-C46F-4B1F-E31CF206A399">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>8B7AC74C-2183-F374-4B19-0E63394BA4E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFE245C9-4AA2-37AA-3D45-029DD0475538" referredColumn="6BDF5DA3-8FE8-5E66-BBE0-6949CCCA63E5"/>
+</associations>
+</Column>
+<Column name="ORGANIZATOR_ID_org" id="11CDB6B3-1FC2-29CA-F761-C3DEF0209F14">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>8B7AC74C-2183-F374-4B19-0E63394BA4E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F294AFD-1DB6-B1D8-0956-1217866387B7" referredColumn="F3358573-4B90-EA0B-D4B9-E4CA518F4787"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1CD7B30-BA8D-F75C-C672-64FC64C703C5" name="organizuje_PK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEE79221-5C13-C46F-4B1F-E31CF206A399"/>
+<colUsage columnID="11CDB6B3-1FC2-29CA-F761-C3DEF0209F14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E6A9DB9-ABDC-F574-D859-8B5334B6677C" name="organizuje_KONFERENCIJA_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>5F465D06-97A2-BDB0-661F-80E50E947EA2</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEE79221-5C13-C46F-4B1F-E31CF206A399"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE1E3923-F211-A55A-EAB8-E4457794F9AB" name="organizuje_ORGANIZATOR_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>5F465D06-97A2-BDB0-661F-80E50E947EA2</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11CDB6B3-1FC2-29CA-F761-C3DEF0209F14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

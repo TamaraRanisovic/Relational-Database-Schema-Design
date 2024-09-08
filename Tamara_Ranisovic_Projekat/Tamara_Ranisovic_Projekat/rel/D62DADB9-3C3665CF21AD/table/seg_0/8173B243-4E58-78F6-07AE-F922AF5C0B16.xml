@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8173B243-4E58-78F6-07AE-F922AF5C0B16" name="sponzorise">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KONFERENCIJA_ID_konf" id="737C328E-D0C1-69EF-74E8-BE82DA1854BA">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>8B7AC74C-2183-F374-4B19-0E63394BA4E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16AAA42D-627E-98AC-4D7A-E3234F5523FB" referredColumn="6BDF5DA3-8FE8-5E66-BBE0-6949CCCA63E5"/>
+</associations>
+</Column>
+<Column name="SPONZOR_ID_sp" id="DDBDB347-A4A7-A940-CBA4-50C299D09087">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>8B7AC74C-2183-F374-4B19-0E63394BA4E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44B09D3B-A416-B469-A684-3CF27AD6048D" referredColumn="0CF92764-E9B6-93B7-7245-3016574CB5D9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E3F23D5-D588-4E5D-E450-62023896ADB1" name="sponzorise_PK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="737C328E-D0C1-69EF-74E8-BE82DA1854BA"/>
+<colUsage columnID="DDBDB347-A4A7-A940-CBA4-50C299D09087"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="466A1AB1-B111-6B74-75E4-1C8B3E4CBF20" name="sponzorise_KONFERENCIJA_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>269BE284-3DA2-BC73-A436-E00BE47DEA3A</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="737C328E-D0C1-69EF-74E8-BE82DA1854BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8EE94BB-F4B6-BD0F-81F7-7593587F19A5" name="sponzorise_SPONZOR_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>269BE284-3DA2-BC73-A436-E00BE47DEA3A</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDBDB347-A4A7-A940-CBA4-50C299D09087"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

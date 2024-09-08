@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF705AD3-CB34-087A-565E-AE3A67BEBC4D" containerWithKeyObject="916B7CD7-4D3C-8ABE-651A-6D81FB4E71C4" localFKIndex="159EAB4C-14B9-9191-5008-53AE36EE0F79" name="AUTOR_PREDAVAC_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>974FA0DB-E69F-48CB-9628-BA8D6B785043</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<referredTableLongName>PREDAVAC</referredTableLongName>
+<arc>81F368A0-9A8F-7698-652A-EF037FA00FED</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BA91924C-304A-545C-43CD-25D709CDDF74</referredTableID>
+<keyObject>18ADFB8A-EC9D-FA10-E9A1-DCFDE9B17979</keyObject>
+<referredKeyID>18ADFB8A-EC9D-FA10-E9A1-DCFDE9B17979</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_os</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>AUTOR</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

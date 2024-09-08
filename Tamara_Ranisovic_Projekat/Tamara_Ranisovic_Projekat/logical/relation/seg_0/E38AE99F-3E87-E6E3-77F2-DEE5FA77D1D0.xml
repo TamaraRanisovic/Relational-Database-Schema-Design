@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ima" directorySegmentName="seg_0" id="E38AE99F-3E87-E6E3-77F2-DEE5FA77D1D0">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 06:09:42 UTC</createdTime>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<targetPk>E4D7E962-A40E-EC90-C07F-F2CFC74BD48B</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6FFEFAF1-35BB-C48F-B22C-27B222EA991D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6FFEFAF1-35BB-C48F-B22C-27B222EA991D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

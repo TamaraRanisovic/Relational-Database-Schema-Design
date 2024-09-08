@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C3A8D162-6B19-497E-6F7D-866F935F5465" containerWithKeyObject="B6326C41-B539-CC73-DBAD-61F0FC79DE08" localFKIndex="8F25C232-0EC9-5D9B-F8F1-0F82B918C08D" name="KUPOVINA_ULAZNICE_OCENA_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>A120D12C-55A9-FA00-9B56-39CEB8AB55D6</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<referredTableLongName>OCENA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9534655D-A31D-F756-76CC-13A6DC2FAB6A</referredTableID>
+<keyObject>49CC4DFE-47CE-5E42-11C0-47E6E9FCC2FC</keyObject>
+<referredKeyID>49CC4DFE-47CE-5E42-11C0-47E6E9FCC2FC</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_oc</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

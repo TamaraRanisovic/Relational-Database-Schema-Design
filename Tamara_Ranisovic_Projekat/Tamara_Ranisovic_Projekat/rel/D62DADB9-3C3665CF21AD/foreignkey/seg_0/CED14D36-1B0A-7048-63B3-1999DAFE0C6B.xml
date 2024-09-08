@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CED14D36-1B0A-7048-63B3-1999DAFE0C6B" containerWithKeyObject="0BE25CA5-E51B-C24E-DDFD-39C046BAD990" localFKIndex="D222FBB3-0A2C-7C99-86A8-C8C9F83E6D8D" name="drzi_RADIONICA_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>1D49B362-CBFA-D492-2A7E-FE07E85CC9CF</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<referredTableLongName>RADIONICA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F71E87D-FDD6-9F5B-F1D7-93048E633ACF</referredTableID>
+<keyObject>040EF453-A346-4E2B-8C30-A5864D1148A7</keyObject>
+<referredKeyID>040EF453-A346-4E2B-8C30-A5864D1148A7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_rad</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

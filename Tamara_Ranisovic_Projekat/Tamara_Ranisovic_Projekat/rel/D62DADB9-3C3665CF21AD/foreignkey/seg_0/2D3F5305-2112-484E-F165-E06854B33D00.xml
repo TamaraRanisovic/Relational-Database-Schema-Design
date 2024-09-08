@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2D3F5305-2112-484E-F165-E06854B33D00" containerWithKeyObject="0BE25CA5-E51B-C24E-DDFD-39C046BAD990" localFKIndex="C13D28EF-8A83-4467-39FE-BF34CB88C78B" name="drzi_SARADNIK_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 07:08:24 UTC</createdTime>
+<generatorID>1D49B362-CBFA-D492-2A7E-FE07E85CC9CF</generatorID>
+<ownerDesignName>Tamara_Ranisovic_Projekat</ownerDesignName>
+<referredTableLongName>SARADNIK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>110816C9-78E5-BDF0-D983-BBC69FBE9D7A</referredTableID>
+<keyObject>50FDC442-0561-C96C-7B89-F5B91E52ADDD</keyObject>
+<referredKeyID>50FDC442-0561-C96C-7B89-F5B91E52ADDD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_os</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

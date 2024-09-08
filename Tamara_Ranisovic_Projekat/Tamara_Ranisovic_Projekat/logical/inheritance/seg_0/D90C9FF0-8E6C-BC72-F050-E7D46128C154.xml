@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="ISA12" directorySegmentName="seg_0" id="D90C9FF0-8E6C-BC72-F050-E7D46128C154">
+<createdBy>Lenovo</createdBy>
+<createdTime>2024-01-13 04:45:45 UTC</createdTime>
+<ownerDesignName>finalISPRAVNA</ownerDesignName>
+<engineerTo>
+<item key="D62DADB9-2453-10E8-BE7E-3C3665CF21AD" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>E162795F-748D-7E22-E053-AE7398DB331E</sourceEntity>
+<targetEntity>15525FB7-2912-3E44-ECA2-0D72D37B4C87</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>
